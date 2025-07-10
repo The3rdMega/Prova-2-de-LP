@@ -3,7 +3,7 @@ main () {
   return f;
 }
 
-fat (n) {
+fat (n,z) {
 
  if (n)
     then return n * fat (n-1);

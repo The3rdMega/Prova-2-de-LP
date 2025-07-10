@@ -84,7 +84,7 @@ class ContaBonificada extends Conta {
   }
   
   void renderBonus ( ) {
-    creditar (bonus); // idealmente, deveria ser "super.creditar(bonus)"
+    super.creditar (bonus); // idealmente, deveria ser "super.creditar(bonus)"
 	bonus = 0;
   }
   
